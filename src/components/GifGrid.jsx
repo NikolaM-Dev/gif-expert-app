@@ -8,8 +8,8 @@ const GifGrid = ({ category }) => {
 
   return (
     <>
-      <h2>{category}</h2>
-      {loading && <p>loading</p>}
+      <h2 className="animate__animated animate__fadeIn">{category}</h2>
+      {loading && <p className="animate__animated animate__flash">loading</p>}
       <div className="card__grid">
         {gifs.map((gif) => (
           <GifGridItem key={gif.id} gif={gif} />
