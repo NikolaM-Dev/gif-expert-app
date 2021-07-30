@@ -20,7 +20,7 @@ const AddCategory = ({ setCategories }) => {
     <form onSubmit={handleSubmit}>
       <input
         onChange={handleChange}
-        placeholder="Goku"
+        placeholder="Search..."
         type="text"
         value={inputValue}
       />
