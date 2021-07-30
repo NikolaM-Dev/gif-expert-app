@@ -2,12 +2,10 @@ import PropTypes from 'prop-types';
 
 const GifGridItem = ({ gif }) => {
   return (
-    <div className="card animate__animated animate__fadeIn">
-      <figure>
-        <img src={gif.url} alt={gif.title} />
-        <figcaption>{gif.title}</figcaption>
-      </figure>
-    </div>
+    <figure className="card animate__animated animate__fadeIn">
+      <img src={gif.url} alt={gif.title} />
+      <figcaption>{gif.title}</figcaption>
+    </figure>
   );
 };
 
