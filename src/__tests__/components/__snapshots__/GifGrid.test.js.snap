@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <GifGrid /> should show <GifGrid /> correctly 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__fadeIn"
+  >
+    Dragon Ball
+  </h2>
+  <p
+    className="animate__animated animate__flash"
+  >
+    loading
+  </p>
+  <div
+    className="card__grid"
+  />
+</Fragment>
+`;
+
+exports[`Test on <GifGrid /> should show items when images are loaded with useGifs 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__fadeIn"
+  >
+    Dragon Ball
+  </h2>
+  <div
+    className="card__grid"
+  >
+    <GifGridItem
+      gif={
+        Object {
+          "id": "01",
+          "title": "Goku",
+          "url": "https://ghipy/goku.gif",
+        }
+      }
+      key="01"
+    />
+    <GifGridItem
+      gif={
+        Object {
+          "id": "02",
+          "title": "Vegeta",
+          "url": "https://ghipy/vegeta.gif",
+        }
+      }
+      key="02"
+    />
+  </div>
+</Fragment>
+`;
