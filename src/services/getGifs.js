@@ -15,7 +15,7 @@ const fromApiResponseToGifs = (apiResponse) => {
 };
 
 const getGifs = ({
-  category = 'One Punch',
+  category = '',
   limit = 15,
   page = 0,
   rating = 'g',
